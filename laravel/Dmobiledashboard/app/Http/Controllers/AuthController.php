@@ -45,7 +45,8 @@ class AuthController extends Controller
 
         }
             
-        return  response(['userdata'=>$userdata]);
+        //return  response()->json(['userdata'=>$userdata]);
+        return $userdata;
         
       
     }
